@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/videos",
+      "lambdaFunction": "getall",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/videos"
+    }
+  ],
+  "resourceName": "alarrolle21",
+  "apiName": "alarrolle21",
+  "functionArns": [
+    {
+      "lambdaFunction": "getall"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-projectawsaplify-dev-163635-authRole",
+    "unAuthRoleName": "amplify-projectawsaplify-dev-163635-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "getall",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

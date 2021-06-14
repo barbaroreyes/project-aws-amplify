@@ -10,6 +10,17 @@
       "StackName": "amplify-projectawsaplify-dev-163635",
       "StackId": "arn:aws:cloudformation:us-east-2:683932190615:stack/amplify-projectawsaplify-dev-163635/99ffb3e0-cd58-11eb-a9ab-06e457cbe812",
       "AmplifyAppId": "d1j9z0up4abx0a"
+    },
+    "categories": {
+      "auth": {
+        "projectawsaplify5597bb3d": {}
+      },
+      "function": {
+        "getall": {
+          "deploymentBucketName": "amplify-projectawsaplify-dev-163635-deployment",
+          "s3Key": "amplify-builds/getall-66423136546150326c70-build.zip"
+        }
+      }
     }
   }
 }
